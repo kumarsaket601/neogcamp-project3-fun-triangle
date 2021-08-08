@@ -10,20 +10,53 @@ body{
     sans-serif;
 
 }
-
+/**common to every html**/
 .navigation{
-    margin: 0px;
+    margin: auto;
     text-align: left;
     background-color: var(--primary-color);
-    padding: 1rem 2rem;
-    
-    
+    padding: 1.5rem;
     
 }
 .navigation a{
-    color: var(--seconday-color);
+    color: var(--third-color);
    
-    font-size: 1.5rem;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-weight: medium;
     text-decoration: none;
+    margin: 0.2rem;
+
+
+    
+}
+h1{
+    margin: auto;
+}
+.container{
+   margin: auto;
+  
+   background-color: var(--secondary-color);
+   color: var(--third-color);
+}
+
+input,label{
+    
+    display: block;
+    text-align:center;
+
+}
+input{
+    margin: 0.5rem auto;
+    padding: 0.5rem 0.5rem;
+}
+
+#submit-button{
+    display: block;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    margin: auto;
+    border-color: var(--third-color);
+
 }
