@@ -1,21 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 :root{
-    --primary-color: #026aa7;
-    --secondary-color: #6ba8cb;
+    --primary-color: #0A0A23;
+    --secondary-color: #1B1B32;
     --third-color: #fafbfc;
 }
 
 body{
-    font-family: 'Source Sans Pro',
+    font-family: 'Lato',
     sans-serif;
-
+    margin: auto;
+    
 }
 /**common to every html**/
 .navigation{
     margin: auto;
     text-align: left;
     background-color: var(--primary-color);
-    padding: 1.5rem;
+    padding: 3rem 2rem;
     
 }
 .navigation a{
@@ -24,19 +25,22 @@ body{
     font-size: 1.3rem;
     font-weight: medium;
     text-decoration: none;
-    margin: 0.2rem;
-
+    margin: 0.5rem;
+    
 
     
 }
-h1{
-    margin: auto;
+p{
+    font-size: large;
+    text-align: center;
 }
+
 .container{
    margin: auto;
-  
    background-color: var(--secondary-color);
    color: var(--third-color);
+   padding: 2rem;
+
 }
 
 input,label{
@@ -56,7 +60,18 @@ input{
     border-radius: 0.5rem;
     background-color: var(--primary-color);
     color: var(--third-color);
-    margin: auto;
+    margin: 1rem auto;
     border-color: var(--third-color);
+}
 
+/** calculate area css **/
+
+#submit-btn {
+    display: block;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--third-color);
+    margin: 1rem auto;
+    border-color: var(--third-color);
 }
