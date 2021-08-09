@@ -8,7 +8,7 @@ function clickHandler(){
     
      var thirdSide = Math.sqrt(Math.pow(firstSide.value,2) + Math.pow(secondSide.value,2));
      
-     display.innerText = "c=" + thirdSide;
+     display.innerText = "Third side is " + thirdSide + " cm";
      
      
 };

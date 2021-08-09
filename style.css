@@ -31,8 +31,13 @@ body{
     
 }
 p{
+    max-width: 10000px;
+    border-color: white;
+    background-color: var(--primary-color);
+    padding: 1rem ;
     font-size: large;
     text-align: center;
+    color: white;
 }
 
 .container{
@@ -74,4 +79,11 @@ input{
     color: var(--third-color);
     margin: 1rem auto;
     border-color: var(--third-color);
+}
+
+/** quiz **/
+.question-container{
+    background-color: var(--secondary-color);
+    padding: 1rem 2rem;
+    color: var(--third-color);
 }
