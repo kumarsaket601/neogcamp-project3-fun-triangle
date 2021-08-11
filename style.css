@@ -87,7 +87,7 @@ input {
     border-color: var(--third-color);
 }
 
-/** quiz **/
+/** quiz 
 .question-container {
     background-color: var(--secondary-color);
     padding: 1rem 2rem;
