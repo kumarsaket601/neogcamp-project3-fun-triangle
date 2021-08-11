@@ -74,6 +74,36 @@ h2{
     font-weight: bold;
     text-align: center;
 }
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: opx;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
 
 
 

@@ -1,65 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-:root{
+
+:root {
     --primary-color: #0A0A23;
     --secondary-color: #1B1B32;
     --third-color: #fafbfc;
 }
 
-body{
+body {
     font-family: 'Lato',
-    sans-serif;
+        sans-serif;
     margin: auto;
-    
+
 }
+
 /**common to every html**/
-.navigation{
+.navigation {
     margin: auto;
     text-align: left;
     background-color: var(--primary-color);
     padding: 3rem 2rem;
-    
+
 }
-.navigation a{
+
+.navigation a {
     color: var(--third-color);
-   
+
     font-size: 1.3rem;
     font-weight: medium;
     text-decoration: none;
     margin: 0.5rem;
-    
 
-    
+
+
 }
-p{
+
+p {
     max-width: 10000px;
     border-color: white;
     background-color: var(--primary-color);
-    padding: 1rem ;
+    padding: 1rem;
     font-size: large;
     text-align: center;
     color: white;
 }
 
-.container{
-   margin: auto;
-   background-color: var(--secondary-color);
-   color: var(--third-color);
-   padding: 2rem;
+.container {
+    margin: auto;
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    padding: 2rem;
 
 }
 
-input,label{
-    
+input,
+label {
+
     display: block;
-    text-align:center;
+    text-align: center;
 
 }
-input{
+
+input {
     margin: 0.5rem auto;
     padding: 0.5rem 0.5rem;
 }
 
-#submit-button{
+#submit-button {
     display: block;
     padding: 0.5rem 0.5rem;
     border-radius: 0.5rem;
@@ -82,8 +88,40 @@ input{
 }
 
 /** quiz **/
-.question-container{
+.question-container {
     background-color: var(--secondary-color);
     padding: 1rem 2rem;
     color: var(--third-color);
+}
+
+/** footer**/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: opx;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
