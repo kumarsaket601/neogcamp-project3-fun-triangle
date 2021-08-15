@@ -3,12 +3,20 @@ var secondSide = document.querySelector("#second-side");
 var submitBtn =  document.querySelector("#submit-button");
 var display = document.querySelector(".output");
 
+
+
+function calculateHypo(first,second){
+
+     var hypotonuse = Math.sqrt(Number(first*first) + Number(second*second));
+     
+     return hypotonuse;
+}
 function clickHandler(){
 
     
-     var thirdSide = Math.sqrt(Math.pow(firstSide.value,2) + Math.pow(secondSide.value,2));
+     var thirdSide = calculateHypo(firstSide.value,secondSide.value)
      
-     display.innerText = "Third side is " + thirdSide + " cm";
+     display.innerText = "Hypotonuse is " + thirdSide + " cm";
      
      
 };

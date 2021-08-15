@@ -17,7 +17,7 @@ function areaOfTriangle(){
 
     
 
-      outputDiv.innerText = "Area of Triangle is " + area;
+      outputDiv.innerText = "Area of Triangle is " + area + " cm square";
 
 }
 
