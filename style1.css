@@ -24,7 +24,7 @@ body {
 
 .navigation a {
     color: var(--third-color);
-    font-size: 1.3rem;
+    
     font-weight: medium;
     text-decoration: none;
     margin: 0.5rem;

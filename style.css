@@ -14,6 +14,8 @@ body {
 }
 
 /**common to every html**/
+
+
 .navigation {
     margin: auto;
     text-align: left;
@@ -23,15 +25,30 @@ body {
 }
 
 .navigation a {
+
     color: var(--third-color);
 
-    font-size: 1.3rem;
-    font-weight: medium;
+    
+    
     text-decoration: none;
     margin: 0.5rem;
 
 
 
+}
+.link{
+
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    
+    
+}
+.list-item-inline{
+    display: inline;
+    padding: 1rem;
+}
+.list-non-bullet{
+    list-style: none;
 }
 
 p {
@@ -48,7 +65,7 @@ p {
     margin: auto;
     background-color: var(--secondary-color);
     color: var(--third-color);
-    padding: 2rem;
+    padding: 0.5rem 1rem;
 
 }
 
