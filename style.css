@@ -23,8 +23,6 @@ body {
 }
 
 .navigation a {
-
-    padding-inline-start: 0px;
     color: var(--third-color);
 
     font-size: 1.3rem;
