@@ -23,6 +23,8 @@ body {
 }
 
 .navigation a {
+
+    padding-inline-start: 0px;
     color: var(--third-color);
 
     font-size: 1.3rem;
@@ -118,7 +120,7 @@ input {
 }
 
 .footer ul {
-    padding-inline-start: opx;
+    padding-inline-start: 0px;
 }
 
 .footer .footer-header {
