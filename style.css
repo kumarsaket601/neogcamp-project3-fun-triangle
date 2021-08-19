@@ -10,7 +10,8 @@ body {
     font-family: 'Lato',
         sans-serif;
     margin: auto;
-
+    background-color: var(--secondary-color);
+    color: var(--third-color);
 }
 
 /**common to every html**/
@@ -28,26 +29,29 @@ body {
 
     color: var(--third-color);
 
-    
-    
+
+
     text-decoration: none;
     margin: 0.5rem;
 
 
 
 }
-.link{
+
+.link {
 
     text-decoration: none;
     padding: 0.5rem 1rem;
-    
-    
+
+
 }
-.list-item-inline{
+
+.list-item-inline {
     display: inline;
     padding: 1rem;
 }
-.list-non-bullet{
+
+.list-non-bullet {
     list-style: none;
 }
 
@@ -127,7 +131,7 @@ input {
     padding: 2rem 1rem;
     text-align: center;
     color: white;
-    
+
 }
 
 .footer .link {
