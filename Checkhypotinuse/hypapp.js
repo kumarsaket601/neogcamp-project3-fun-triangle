@@ -13,10 +13,15 @@ function calculateHypo(first,second){
 }
 function clickHandler(){
 
-    
-     var thirdSide = calculateHypo(firstSide.value,secondSide.value)
+    if(Number(firstSide.value) >= 0 && Number(secondSide.value)){
+
+         var thirdSide = calculateHypo(Number(firstSide.value),Number(secondSide.value))
      
      display.innerText = "Hypotonuse is " + thirdSide + " cm";
+    }
+     else{
+          display.innerText = "Please Provide positive value";
+     }
      
      
 };
