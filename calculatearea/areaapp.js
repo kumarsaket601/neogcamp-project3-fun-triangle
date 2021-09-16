@@ -12,13 +12,21 @@ function calculateArea(baseOfTriangle,heightOfTriangle){
 }
 
 function areaOfTriangle(){
+     
+     if( Number(baseOfTriangle.value) >= 0 && Number(heightOfTriangle.value)) {
 
-    var area = calculateArea(Number(baseOfTriangle.value),Number(heightOfTriangle.value));
+           var area = calculateArea(Number(baseOfTriangle.value),Number(heightOfTriangle.value));
 
     
 
       outputDiv.innerText = "Area of Triangle is " + area + " cm square";
 
+     }else{
+
+          outputDiv.innerText = "Please Provide with the positive  value";
+     }
+
+   
 }
 
 submitBtn.addEventListener("click", areaOfTriangle)
