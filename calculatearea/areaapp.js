@@ -13,7 +13,7 @@ function calculateArea(baseOfTriangle,heightOfTriangle){
 
 function areaOfTriangle(){
      
-     if( Number(baseOfTriangle.value) >= 0 && Number(heightOfTriangle.value)) {
+     if( Number(baseOfTriangle.value) >= 0 && Number(heightOfTriangle.value) >= 0) {
 
            var area = calculateArea(Number(baseOfTriangle.value),Number(heightOfTriangle.value));
 

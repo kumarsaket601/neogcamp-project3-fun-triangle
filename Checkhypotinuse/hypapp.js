@@ -19,6 +19,7 @@ function clickHandler(){
      
      display.innerText = "Hypotonuse is " + thirdSide + " cm";
     }
+    
      else{
           display.innerText = "Please Provide positive value";
      }
