@@ -124,6 +124,9 @@ input {
     display: inline;
     padding: 0rem 1rem;
 }
+.link-active{
+    font-weight: bold;
+}
 
 
 .footer {
