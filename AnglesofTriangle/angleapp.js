@@ -14,19 +14,25 @@ function calculateAngle(first, second, third) {
 
 function calculateAngleHandler() {
 
-    if (Number(firstAngle.value) >= 0 && Number(secondAngle.value) >= 0 && Number(thirdAngle.value) >= 0) {
-        var sumOfAngle = calculateAngle(Number(firstAngle.value), Number(secondAngle.value), Number(thirdAngle.value));
+    if (firstAngle.value !== '' && secondAngle.value !== '' && thirdAngle.value !== '') {
+        if (Number(firstAngle.value) > 0 && Number(secondAngle.value) > 0 && Number(thirdAngle.value) > 0) {
+            var sumOfAngle = calculateAngle(Number(firstAngle.value), Number(secondAngle.value), Number(thirdAngle.value));
 
-        if (sumOfAngle === 180) {
+            if (sumOfAngle === 180) {
 
-            display.innerText = "Yep! this input angle can form an triangle";
+                display.innerText = "Yep! this input angle can form an triangle.";
+            } else {
+
+                display.innerText = "Sorry! the inputed angle could not form an angle.";
+            }
         } else {
-
-            display.innerText = "Sorry! the inputed angle could not form an angle";
+            display.innerText = "Please provide the positive value.";
         }
-    }else{
-        display.innerText = "Please Provide the positive value";
+    } else {
+        display.innerText = "Provide value in the input.";
     }
+
+
 
 
 
